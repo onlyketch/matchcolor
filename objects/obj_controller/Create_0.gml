@@ -19,10 +19,7 @@ collection = [[0], [0, 1], [0, 1, 2], [0, 1], [0]];
 global.colls = [
 	{
 		cells: [],
-		state: "unselected",
-		select: function() {
-			show_debug_message("Массив 1 выбран!");
-		}
+		state: "unselected"
 	},
 	{
 		cells: [],
@@ -40,6 +37,29 @@ global.colls = [
 		cells: [],
 		state: "unselected"
 	}
+];
+
+function toggle_backlight_col(arr) {
+	for (var i = 0; i < array_length(arr); i++) {
+		arr[i].selected = 1;
+	}
+}
+
+global.unselect_all = function() {
+	for (var i = 0; i < array_length(global.colls); i++) {
+		global.colls[i].state = "unselected";
+		for (var j = 0; j < array_length(global.colls[i].cells); j++) {
+			global.colls[i].cells[j].selected = 0;
+		}
+	}
+}
+
+global.coll_select_funcs = [
+	function() { toggle_backlight_col(global.colls[0].cells) },
+	function() { toggle_backlight_col(global.colls[1].cells) },
+	function() { toggle_backlight_col(global.colls[2].cells) },
+	function() { toggle_backlight_col(global.colls[3].cells) },
+	function() { toggle_backlight_col(global.colls[4].cells) }
 ];
 
 
