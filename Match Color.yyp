@@ -1,0 +1,53 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Match Color",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"fonts","folderPath":"folders/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.2.213",
+  },
+  "name":"Match Color",
+  "resources":[
+    {"id":{"name":"obj_cell","path":"objects/obj_cell/obj_cell.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_green","path":"objects/obj_green/obj_green.yy",},},
+    {"id":{"name":"obj_pink","path":"objects/obj_pink/obj_pink.yy",},},
+    {"id":{"name":"obj_red","path":"objects/obj_red/obj_red.yy",},},
+    {"id":{"name":"obj_switcher","path":"objects/obj_switcher/obj_switcher.yy",},},
+    {"id":{"name":"obj_white","path":"objects/obj_white/obj_white.yy",},},
+    {"id":{"name":"obj_yellow","path":"objects/obj_yellow/obj_yellow.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"spr_cell","path":"sprites/spr_cell/spr_cell.yy",},},
+    {"id":{"name":"spr_green","path":"sprites/spr_green/spr_green.yy",},},
+    {"id":{"name":"spr_pink","path":"sprites/spr_pink/spr_pink.yy",},},
+    {"id":{"name":"spr_red","path":"sprites/spr_red/spr_red.yy",},},
+    {"id":{"name":"spr_switcher","path":"sprites/spr_switcher/spr_switcher.yy",},},
+    {"id":{"name":"spr_white","path":"sprites/spr_white/spr_white.yy",},},
+    {"id":{"name":"spr_yellow","path":"sprites/spr_yellow/spr_yellow.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
