@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_target_coords",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_target_coords",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
