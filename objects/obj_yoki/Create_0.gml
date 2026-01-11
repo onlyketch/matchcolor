@@ -7,7 +7,7 @@ y_limit = false;
 coords = undefined;
 target_x = 0;
 target_y = 0;
-fly_speed = 18;
+fly_speed = 16;
 color = obj_controller.states[2];
 
 check_point1 = global.game_data.select_cols_point[0] - sprite_width / 2;

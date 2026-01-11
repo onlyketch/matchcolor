@@ -101,6 +101,6 @@ function create_level() {
 create_cells();
 create_level();
 
-instance_create_layer(130, 452, "Instances", obj_pink);
+instance_create_layer(130, 452, "Instances", obj_yoki);
 
 
