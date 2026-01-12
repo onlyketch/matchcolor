@@ -10,6 +10,7 @@ global.game_data = {
 	select_cols_point: [120, 160, 200, 240, 280],
 	left_bound: 80,
 	right_bound: 280,
+	yoki_delay: 120
 }
 
 randomise();
@@ -101,6 +102,6 @@ function create_level() {
 create_cells();
 create_level();
 
-instance_create_layer(80, 452, "Instances", obj_yoki);
+alarm[0] = global.game_data.yoki_delay;
 
 
