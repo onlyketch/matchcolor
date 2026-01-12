@@ -1,4 +1,5 @@
 if (is_dragged) {
+	speed = 0;
 	var new_x = mouse_x + click_offset_x;
   var new_y = mouse_y + click_offset_y;
 	
@@ -52,11 +53,11 @@ if (y_limit) {
 }
 
 }
+
+if (used) {
+	if (point_distance(x, y, target_x, target_y) <= fly_speed) {
+		instance_destroy();
+		global.colls[coords.coll_id].cells[coords.cell_id].state = color;
+	}	
+}
 	
-if (point_distance(x, y, target_x, target_y) <= fly_speed) {
-	//x = target_x;
-	//y = target_y;
-	//speed = 0;
-	instance_destroy();
-	global.colls[coords.coll_id].cells[coords.cell_id].state = color;
-}	

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_last_arr_coords",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_last_arr_coords",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

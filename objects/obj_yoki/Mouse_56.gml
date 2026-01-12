@@ -1,6 +1,6 @@
 is_dragged = false;
 
-if (y_limit) {
+if (y_limit && !used) {
 	used = true;
 	coords = get_target_coords(global.colls);
 	target_x = coords.x;
