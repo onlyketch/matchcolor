@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"match_cheking",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"match_cheking",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

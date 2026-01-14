@@ -15,6 +15,9 @@ global.game_data = {
 
 randomise();
 
+global.rnd_sprite_num = 0;
+global.sprites = ["", spr_yellow, spr_pink, spr_green, spr_white, spr_red];
+
 collection = [[0], [0, 1], [0, 1, 2], [0, 1], [0]];
 
 global.colls = [

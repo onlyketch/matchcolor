@@ -7,9 +7,9 @@ if (is_dragged) {
 		target_x = coords.x;
 		target_y = coords.y;
 		move_towards_point(target_x, target_y, fly_speed);
-		global.unselect_all();
 	} else {
 		instance_destroy();
 	}
+	global.unselect_all();
 }
 

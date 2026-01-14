@@ -1,4 +1,5 @@
 if (position_meeting(mouse_x, mouse_y, id) && !used) {
+	y = obj_limiter.y + 9;
 	is_dragged = true;
 	depth = 5;
 	click_offset_x = x - mouse_x;

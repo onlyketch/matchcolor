@@ -1,3 +1,5 @@
+sprite_index = global.sprites[global.rnd_sprite_num];
+color = obj_controller.states[global.rnd_sprite_num];
 is_dragged = false;
 used = false;
 click_offset_x = 0;
@@ -8,7 +10,6 @@ coords = undefined;
 target_x = 0;
 target_y = 0;
 fly_speed = 16;
-color = obj_controller.states[2];
 hspeed = 1;
 
 check_point1 = global.game_data.select_cols_point[0] - sprite_width / 2;

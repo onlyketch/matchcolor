@@ -58,6 +58,7 @@ if (used) {
 	if (point_distance(x, y, target_x, target_y) <= fly_speed) {
 		instance_destroy();
 		global.colls[coords.coll_id].cells[coords.cell_id].state = color;
+		match_cheking(global.colls[coords.coll_id].cells, coords.cell_id);
 	}	
 }
 	

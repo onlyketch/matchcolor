@@ -32,5 +32,5 @@
     "path":"sprites/spr_limiter/spr_limiter.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
