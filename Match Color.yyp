@@ -17,7 +17,11 @@
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"levels.json","CopyToMask":-1,"filePath":"datafiles","name":"levels.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"player.json","CopyToMask":-1,"filePath":"datafiles","name":"player.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"settings.json","CopyToMask":-1,"filePath":"datafiles","name":"settings.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -31,6 +35,8 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_yoki","path":"objects/obj_yoki/obj_yoki.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"get_current_level","path":"scripts/get_current_level/get_current_level.yy",},},
+    {"id":{"name":"get_data","path":"scripts/get_data/get_data.yy",},},
     {"id":{"name":"get_last_arr_coords","path":"scripts/get_last_arr_coords/get_last_arr_coords.yy",},},
     {"id":{"name":"get_target_coords","path":"scripts/get_target_coords/get_target_coords.yy",},},
     {"id":{"name":"match_cheking","path":"scripts/match_cheking/match_cheking.yy",},},

@@ -1,0 +1,13 @@
+{
+    "cell_step": 40,
+    "count_arrays": 5,
+    "cell_count_in_array": 7,
+    "start_pos": {
+        "x": 80, 
+        "y": 120
+    },
+    "select_cols_point": [120, 160, 200, 240, 280],
+    "left_bound": 80,
+    "right_bound": 280,
+    "yoki_delay": 120
+}

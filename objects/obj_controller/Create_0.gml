@@ -1,24 +1,25 @@
-global.game_data = {
-	level: 1,
-	highscore: 0,
-	attempts: 3,
-	cell_step: 40,
-	count_arrays: 5,
-	cell_count_in_array: 7,
-	start_pos: {x: 80, y: 120},
-	drag_min_y: 430,
-	select_cols_point: [120, 160, 200, 240, 280],
-	left_bound: 80,
-	right_bound: 280,
-	yoki_delay: 120
+data_files = {
+	player: "player.json",
+	levels: "levels.json",
+	game: "settings.json"
 }
+
+err_messages = {
+	player: "Файл игрока не найден",
+	levels: "Файл с уровнями не найден",
+	game: "Файл с настройками игры не найден"
+}
+
+global.game_data = get_data(data_files.game, err_messages.game);
+global.player_data = get_data(data_files.player, err_messages.player);
+global.level_data = get_current_level(data_files.levels, err_messages.levels);
+global.player_data.level_map = global.level_data.map;
 
 randomise();
 
 global.rnd_sprite_num = 0;
 global.sprites = ["", spr_yellow, spr_pink, spr_green, spr_white, spr_red];
 
-collection = [[0], [0, 1], [0, 1, 2], [0, 1], [0]];
 
 global.colls = [
 	{
@@ -90,8 +91,8 @@ function create_level() {
 	var color_index = irandom_range(1, 5);
 	
 	for (var i = 0; i < array_length(global.colls); i++) {
-		for (var j = 0; j < array_length(collection[i]); j++) {
-			global.colls[i].cells[collection[i][j]].state = states[color_index];
+		for (var j = 0; j < array_length(global.player_data.level_map[i]); j++) {
+			global.colls[i].cells[global.player_data.level_map[i][j]].state = states[color_index];
 			if (color_index < 5) {
 				color_index++;
 			} else {
