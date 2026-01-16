@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"goal_checking",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"goal_checking",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

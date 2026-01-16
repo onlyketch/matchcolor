@@ -3,12 +3,24 @@
         {
             "id": 1,
             "map": [[0], [0, 1], [0, 1, 2], [0, 1], [0]],
-            "goals": {
-                "yellow": 1,
-                "pink": 2,
-                "green": 2,
-                "red": 1
-            }
+            "goals": [
+                { 
+                    "color" : "yellow",
+                    "count": 1 
+                },
+                { 
+                    "color" : "pink",
+                    "count": 2 
+                },
+                { 
+                    "color" : "green",
+                    "count": 2 
+                },
+                { 
+                    "color" : "red",
+                    "count": 1 
+                }
+            ]
         }
     ]
 }

@@ -14,6 +14,7 @@ global.game_data = get_data(data_files.game, err_messages.game);
 global.player_data = get_data(data_files.player, err_messages.player);
 global.level_data = get_current_level(data_files.levels, err_messages.levels);
 global.player_data.level_map = global.level_data.map;
+global.current_match_color = "";
 
 randomise();
 
