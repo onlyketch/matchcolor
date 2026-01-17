@@ -32,6 +32,7 @@
   "name":"Match Color",
   "resources":[
     {"id":{"name":"font_goals","path":"fonts/font_goals/font_goals.yy",},},
+    {"id":{"name":"font_moves","path":"fonts/font_moves/font_moves.yy",},},
     {"id":{"name":"obj_cell","path":"objects/obj_cell/obj_cell.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},

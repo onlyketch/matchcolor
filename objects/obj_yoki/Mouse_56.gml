@@ -11,5 +11,6 @@ if (is_dragged) {
 		instance_destroy();
 	}
 	global.unselect_all();
+	global.moves --;
 }
 

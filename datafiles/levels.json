@@ -20,7 +20,8 @@
                     "color" : "red",
                     "count": 1 
                 }
-            ]
+            ],
+            "moves": 40
         }
     ]
 }

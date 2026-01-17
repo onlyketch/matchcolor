@@ -3,6 +3,7 @@ goal_x_start = x + 20;
 goal_y = y + 11;
 goal_step = 30;
 global.goals = [];
+global.moves = global.level_data.moves;
 
 for (var i = 0; i < array_length(global.level_data.goals); i++) {
 	var goal = instance_create_layer(goal_x_start, goal_y, "Instances", obj_goal);
